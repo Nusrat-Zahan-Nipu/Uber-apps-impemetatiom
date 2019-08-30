@@ -1,0 +1,4 @@
+<
+
+CREATE TABLE `bus route`.`History` ( `Date` DATE NOT NULL , `Location` VARCHAR(60) NOT NULL , `Destination` VARCHAR(60) NOT NULL , `Duration` INT(60) NOT NULL , `Review` INT NOT NULL ) ENGINE = InnoDB;
+ALTER TABLE `users_info` ADD `usertype` VARCHAR(60) NOT NULL AFTER `username`;
